@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/shpp_image"
+            android:scaleType="fitXY"
+            android:src="@drawable/shopping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/product_price"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="PRODUCT PRICE"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/product_email"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:text="Devendradewal.dewal@gmail.com"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+
+
+
+    </LinearLayout>
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <TextView
+           android:layout_marginTop="10dp"
+           android:textSize="20dp"
+           android:textColor="@android:color/black"
+           android:textStyle="bold"
+           android:text=" TEXT"
+           android:id="@+id/product_text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+
+       <TextView
+           android:id="@+id/product_rupes"
+           android:textColor="@android:color/black"
+           android:textStyle="bold"
+           android:textSize="20dp"
+           android:layout_alignParentRight="true"
+           android:text="6000"
+           android:layout_marginTop="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="left"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/ProductCancelRs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B3B3B3"
+
+                android:textSize="22sp"
+                android:text="Rs. 200"/>
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#B3B3B3"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
+    </LinearLayout>
